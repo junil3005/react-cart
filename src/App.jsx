@@ -70,16 +70,16 @@ function App() {
   
   //  id => isBought를 true <-> false
   const toggleBought = (id) => {
-    const newItemList = itemList.map((item) =>
-      item.id === id ? { ...item, isBought: !item.isBought } : item
-    );
-    setItemList(newItemList);
+  const newItemList = itemList.map((item) =>
+  item.id === id ? { ...item, isBought: !item.isBought } : item
+  );
+  setItemList(newItemList);
   };
 
   //  id => item 삭제
   const deleteItem = (id) => {
-    const newItemList = itemList.filter((item) => item.id !== id);
-    setItemList(newItemList);
+  const newItemList = itemList.filter((item) => item.id !== id);
+  setItemList(newItemList);
   };
 
   return (

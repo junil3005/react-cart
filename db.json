@@ -19,11 +19,6 @@
       "id": 4,
       "name": "고춧가루",
       "isBought": false
-    },
-    {
-      "id": "05be",
-      "name": "테스트",
-      "isBought": false
     }
   ]
 }
