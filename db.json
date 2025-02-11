@@ -1,23 +1,28 @@
 {
   "shoplist": [
     {
-      "id": 1,
+      "id": "1",
       "name": "무",
       "isBought": false
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "배추",
       "isBought": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "쪽파",
-      "isBought": true
+      "isBought": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "고춧가루",
+      "isBought": false
+    },
+    {
+      "id": 5,
+      "name": "멸치",
       "isBought": false
     }
   ]

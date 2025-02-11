@@ -7,7 +7,7 @@ import BoughtList from "./components/BoughtList";
 import CartFooter from "./components/CartFooter";
 
 function App() {
-  const apiUrl = "http://localhost:1337/shoplist";
+  const apiUrl = "http://localhost:3000/shoplist";
   //  서버로부터 API 호출해서 쇼핑 목록 받아오기
   // const [itemList, setItemList] = useState([
   //   { id: 1, name: "무", isBought: false },
@@ -15,6 +15,8 @@ function App() {
   //   { id: 3, name: "쪽파", isBought: true },
   //   { id: 4, name: "고춧가루", isBought: false },
   // ]);
+    const [isPlaying, setIsPlaying] = useState(true); // 초기값을 true로 설정하여 자동 재생
+  
   const [itemList, setItemList] = useState([]);
   //  산 물건 보기 여부를 체크할 state
   const [showBoughtItems, setShowBoughtItems] = useState(true);
